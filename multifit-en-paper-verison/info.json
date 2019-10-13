@@ -1,0 +1,1 @@
+{"dataset_path": "data/wiki/en-100", "base_lm_path": null, "backwards": false, "bidir": false, "qrnn": true, "max_vocab": 15000, "tokenizer": "sp", "pretrained_model": null, "emb_sz": 400, "nh": 1550, "nl": 4, "clip": 0.12, "bptt": 70, "rnn_alpha": 2, "rnn_beta": 1}
