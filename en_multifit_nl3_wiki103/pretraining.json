@@ -1,0 +1,25 @@
+{
+  "seed": 0,
+  "name": "multifit_fp16_nl3",
+  "arch": {
+    "tokenizer": "fsp",
+    "max_vocab": 15000,
+    "emb_sz": 400,
+    "n_hid": 1552,
+    "n_layers": 3,
+    "qrnn": true
+  },
+  "experiment_path": "data/wiki/wikitext-103/models/fsp15k/multifit_fp16_nl3",
+  "dataset_path": "data/wiki/wikitext-103",
+  "num_epochs": 10,
+  "bs": 128,
+  "bptt": 70,
+  "drop_mult": 0.5,
+  "label_smoothing_eps": 0.0,
+  "use_adam_08": false,
+  "true_wd": true,
+  "wd": 0.1,
+  "fp16": true,
+  "lr": 0.02666666666666667,
+  "base": null
+}

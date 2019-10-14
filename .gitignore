@@ -1,0 +1,5 @@
+*.tgz
+*.pth
+*.pkl
+spm.model
+spm.vocab
